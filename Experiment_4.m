@@ -10,10 +10,10 @@ hr = linspace(0.5, 0, 0.125 * fs);
 hadsr = [ha hd hs hr];
 
 %ADSR for dotted half Notes
-da = linspace(0, 1, 0.25 * fs / 0.66659);
-dd = linspace(1, 0.5, 0.125 * fs / 0.66659);
-ds = linspace(0.5, 0.5, 0.5 * fs / 0.66659);
-dr = linspace(0.5, 0, 0.125 * fs / 0.66659);
+da = linspace(0, 1, 0.25 * fs / 0.3333333333333); 
+dd = linspace(1, 0.5, 0.125 * fs / 0.3333333333333);
+ds = linspace(0.5, 0.5, 0.5 * fs / 0.3333333333333);
+dr = linspace(0.5, 0, 0.125 * fs / 0.3333333333333);
 
 dadsr = [da dd ds dr];
 
